@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/LWJGL-3"/>
+	<classpathentry kind="lib" path="C:/Users/STS/workspace/joml/joml-1.9.9.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/STS/workspace/joml/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/STS/workspace/2_Seypris_JNR/src/PNGDecoder.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
