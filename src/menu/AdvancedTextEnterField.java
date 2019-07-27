@@ -34,6 +34,8 @@ public abstract class AdvancedTextEnterField implements InputListenerKey {
 			return;
 		char c = e.keyChar;
 		int i = e.keyID;
+		if(e.isChar) i = -10000;
+		else c = (char)254;
 		if(i == GLFW.GLFW_KEY_LEFT){
 			tebpos--;
 			if(tebpos<0) tebpos = 0;
